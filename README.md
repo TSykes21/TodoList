@@ -41,7 +41,8 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1:** "What are your reactions to the Android app development platform so far? Compare and contrast Android's approach to layouts and user interfaces in past platforms you've used."
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** I was impressed by Android Studio’s robust and intuitive VCS Integration. In comparison to XCode, Android Studio has more options for VCS Integration; XCode only supports Git for version control, whereas Andriod Studio supports Git, Github, Subversion, CVS, Google Cloud, and Mercurial. These options for version control allows developers to collaborate on a project, store versions of projects after making changes, and restore previous versions of a project if changes are nonviable. This feature will make it much easier to backup projects that I work on and makes it easier to store projects safely remotely. 
+Android Studio and XCode both have layout editors that allow drag and drop UI design. The Interface Builder in XCode wires components to code visually. However, Andriod Studio components must be inflated manually in code in MainActivtity. In addition, the file format for UI files in Interface Builder is proprietary, whereas the file format for layout files in Andriod Studio is XML, which makes the layout file self-describing and human readable.
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
