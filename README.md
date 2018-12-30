@@ -45,7 +45,7 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** An adapter in the context of this app creates a view, a building block for UI components, for each item in the data set. As a result, data that is stored in a data set such as an ArrayList is loaded on an Adapter View such as `ListView` so that the users can see the item on the interface and the programmer can easily store and convert data while programming. An `ArrayAdapter` is a type of adapter that returns a view for each item in a data set which would be used with a list-based user interface widgets such as `ListView` 
 
 ## Notes
 
