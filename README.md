@@ -51,7 +51,6 @@ Android Studio and XCode both have layout editors that allow drag and drop UI de
 
 ## Notes
 
-Describe any challenges encountered while building the app.
 
 ## License
 
